@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LG-Speclium Setting</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="img/images/favicon.ico">
+
+
+	<!-- 나눔 고딕 및 font-awesome css 추가-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/nanumgothic.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">    
+    <link rel="stylesheet" href="css/common.css">
+
+
+    <script type="text/javascript" src="js/jquery.1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/fontawsome.js"></script>
+</head>
+
+<body>
+
+<!-- header S -->
+<header id="id-header" class="class-header class-clearfix">
+    <h1 class="class-logo">
+        <a href="index.html">Speclium Setting</a>
+    </h1>
+    <!-- logo E -->
+    
+    <div class="class-gnbWrap class-clearfix">
+        <nav class="class-gnb">
+            <button class="class-btnGnb">Services<span class="class-arrow"></span></button>
+
+            <!-- gnbInner 활성화 class-on -->
+            <ul class="class-gnbInner">
+                <li>
+                    <a href="#">Speclium Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Speclium Chart</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- gnb E -->
+
+        <div class="class-language">
+            <select name="language">
+                <option value="english">English</option>
+            </select>
+        </div>
+        <!-- language E -->
+    </div>
+    <!-- gnbWrap E -->
+</header>
+<!-- header E -->
+
+<!-- container S -->
+<section id="id-container" class="class-container">
+    <div class="class-searchWrap class-clearfix">
+        <div class="class-filterWrap class-clearfix">
+            <form class="class-lineFilter">
+                <span>LINE</span>
+
+                <button class="class-btnFilter">Pack_Line_9<span class="class-arrow"></span></button>
+
+                <!-- button 눌러서 활성화 시 class-on -->
+                <ul class="class-filterList">
+                    <li>
+                        <input type="checkbox" id="id-line01">
+                        <label for="id-line01">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-line02">
+                        <label for="id-line02">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-line03">
+                        <label for="id-line03">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-line04">
+                        <label for="id-line04">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-line05">
+                        <label for="id-line05">Pack_Line_9</label>
+                    </li>
+                </ul>
+            </form>
+            <!-- lineFilter E -->
+
+            <form class="class-machineFilter">
+                <span>MACHINE</span>
+
+                <button class="class-btnFilter">Pack_Line_9<span class="class-arrow"></span></button>
+
+                <!-- button 눌러서 활성화 시 class-on -->
+                <ul class="class-filterList">
+                    <li>
+                        <input type="checkbox" id="id-all">
+                        <label for="id-all">All Machine</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-machine01">
+                        <label for="id-machine01">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-machine02">
+                        <label for="id-machine02">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-machine03">
+                        <label for="id-machine03">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-machine04">
+                        <label for="id-machine04">Pack_Line_9</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="id-machine05">
+                        <label for="id-machine05">Pack_Line_9</label>
+                    </li>
+                </ul>
+            </form>
+            <!-- machineFilter E -->
+        </div>
+        <!-- filterWrap E -->
+        
+        <div class="class-searchInner">
+            <form id="id-search">
+                <span>SEARCH</span>
+                
+                <input type="text" class="class-searchInput">
+                
+                <button type="submit" form="id-search" class="class-btnSearch">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <!-- searchInner E -->
+    </div>
+    <!-- searchWrap E -->
+    
+    <section id="id-table" class="class-table">
+        <form>
+            <ul class="class-heading">
+                <li>
+                    <div class="class-machineLine class-rowFilter">
+                        <p>Machine<span class="class-arrow"></span></p>
+
+                        <ul class="class-tableFilter">
+                            <li>
+                                <input type="checkbox" id="id-machineIn01">
+                                <label for="id-machineIn01">Pack_Line_9</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-machineIn02">
+                                <label for="id-machineIn01">Pack_Line_9</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-machineIn03">
+                                <label for="id-machineIn01">Pack_Line_9</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="class-unitLine class-rowFilter class-on">
+                        <p>Unit<span class="class-arrow"></span></p>
+
+                        <ul class="class-tableFilter">
+                            <li>
+                                <input type="checkbox" id="id-unitIn01">
+                                <label for="id-unitIn01">Elecliode_Unwinder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-unitIn02">
+                                <label for="id-unitIn02">Elecliode_Unwinder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-unitIn03">
+                                <label for="id-unitIn03">Elecliode_Unwinder</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>Item</p>
+                    </div>
+
+                    <div class="class-valueLine class-rowFilter">
+                        <p>Value Unit<span class="class-arrow"></span></p>
+
+                        <ul class="class-tableFilter">
+                            <li>
+                                <input type="checkbox" id="id-valueIn01">
+                                <label for="id-valueIn01">%</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-valueIn02">
+                                <label for="id-valueIn01">%</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-valueIn03">
+                                <label for="id-valueIn01">%</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="class-typeLine class-rowFilter">
+                        <p>Type<span class="class-arrow"></span></p>
+
+                        <ul class="class-tableFilter">
+                            <li>
+                                <input type="checkbox" id="id-typeIn01">
+                                <label for="id-typeIn01">PV</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-typeIn02">
+                                <label for="id-typeIn01">SV</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="id-typeIn03">
+                                <label for="id-typeIn01">PV</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p>Lower Limit</p>
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p>Lower Limit</p>
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p>Upper Limit</p>
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p>Upper Limit</p>
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>icon</p>
+                    </div>
+                </li>
+            </ul>
+            <!-- thead E -->
+
+            <ul class="class-Inner">
+                <!-- limit 수칫값 입력 후 li에 class-act -->
+                <li class="class-checking class-act">
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>                    
+
+                <li>
+                    <div class="class-machineLine">
+                        <p>Pack_Line_9</p>
+                    </div>
+
+                    <div class="class-unitLine">
+                        <p>Elecliode_Unwinder</p>
+                    </div>
+
+                    <div class="class-itemLine">
+                        <p>STK Rear Table Lower Cell Ejection XAxis&#40;SingleAxisRobot&#41; Load</p>
+                    </div>
+
+                    <div class="class-valueLine">
+                        <p>%</p>
+                    </div>
+
+                    <div class="class-typeLine">
+                        <p>PV</p>
+                    </div>
+
+                    <div class="class-lowerRline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="lowerRline">
+                    </div>
+
+                    <div class="class-lowerYline">
+                        <p class="class-value">-2</p>
+
+                        <input type="text" name="lowerYline">
+                    </div>
+
+                    <div class="class-upperRline">
+                        <p class="class-value">2</p>
+
+                        <input type="text" name="upperRline">
+                    </div>
+
+                    <div class="class-upperYline">
+                        <p class="class-value">-5</p>
+
+                        <input type="text" name="upperYline">
+                    </div>
+
+                    <div class="class-iconWrap">
+                        <p>
+                            <button class="class-btnIcon class-modify">수정</button>
+                            <a href="#" class="class-btnIcon class-chartIcon">차트</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </section>
+    <!-- table E -->
+    
+    <div class="class-exportWrap">
+        <span>관리 수준 설정 파일</span>
+        <a href="#" class="class-btnSet class-btnExport">Export</a>
+        <a href="#" class="class-btnSet class-btnImport">Import</a>
+    </div>
+</section>
+<!-- container E -->
+
+</body>
+</html>
